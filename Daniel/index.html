@@ -3,70 +3,284 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Mundial de Fútbol</title>
+	<meta name="description" content="Vive el Mundial 2026. Conoce las selecciones participantes, la tabla de grupos y las etapas del torneo.">
+	<title>Mundial 2026 · La cancha nunca para</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@500;700&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/estilo-menu.css">
 </head>
 <body>
-	<header class="hero hero-mundial" id="inicio">
+
+	<header class="hero" id="inicio">
+		<div class="hero-shape" aria-hidden="true"></div>
 		<div class="hero-content">
-			<p class="eyebrow">La emoción del fútbol mundial</p>
-			<h1>Mundial 2026</h1>
-			<p>Sigue los partidos más esperados, vive la pasión de cada gol y celebra con la emoción de la Copa del Mundo.</p>
-			<a class="btn" href="#contacto">Reserva tu experiencia</a>
+			<p class="eyebrow">Canadá · México · Estados Unidos</p>
+			<h1>MUNDIAL<br><span>2026</span></h1>
+			<p class="hero-text">48 selecciones. Un solo trofeo. Vive cada gol, cada atajada y cada final desde la primera fila.</p>
+			<a class="btn" href="#contacto">Reserva tu lugar</a>
 		</div>
 	</header>
 
 	<main>
-		<section class="info-section" id="acerca">
-			<div class="info-card">
-				<h2>Pasión y emoción</h2>
-				<p>El mundial reúne a los mejores equipos y a millones de fanáticos en una fiesta del fútbol.</p>
-			</div>
-			<div class="info-card">
-				<h2>Partidos inolvidables</h2>
-				<p>Cada encuentro trae goles, estrategia, tensión y momentos que quedarán para siempre.</p>
-			</div>
-			<div class="info-card">
-				<h2>La gloria del campeonato</h2>
-				<p>La ruta hacia la final está llena de historia, rivalidad y grandes actuaciones.</p>
+		<section class="teams" id="selecciones">
+			<h2>Principales selecciones favoritas</h2>
+			<p class="teams-sub">48 países, un boleto a la gloria.</p>
+			<div class="team-grid">
+				<div class="team-card">
+					<span class="flag" aria-hidden="true">🇲🇽</span>
+					<h3>México</h3>
+					<span class="team-group">Grupo A</span>
+				</div>
+				<div class="team-card">
+					<span class="flag" aria-hidden="true">🇨🇦</span>
+					<h3>Canadá</h3>
+					<span class="team-group">Grupo B</span>
+				</div>
+				<div class="team-card">
+					<span class="flag" aria-hidden="true">🇺🇸</span>
+					<h3>Estados Unidos</h3>
+					<span class="team-group">Grupo D</span>
+				</div>
+				<div class="team-card">
+					<span class="flag" aria-hidden="true">🇦🇷</span>
+					<h3>Argentina</h3>
+					<span class="team-group">Grupo J</span>
+				</div>
+				<div class="team-card">
+					<span class="flag" aria-hidden="true">🇧🇷</span>
+					<h3>Brasil</h3>
+					<span class="team-group">Grupo C</span>
+				</div>
+				<div class="team-card">
+					<span class="flag" aria-hidden="true">🇫🇷</span>
+					<h3>Francia</h3>
+					<span class="team-group">Grupo I</span>
+				</div>
+				<div class="team-card">
+					<span class="flag" aria-hidden="true">🇪🇸</span>
+					<h3>España</h3>
+					<span class="team-group">Grupo H</span>
+				</div>
+				<div class="team-card">
+					<span class="flag" aria-hidden="true">🇩🇪</span>
+					<h3>Alemania</h3>
+					<span class="team-group">Grupo E</span>
+				</div>
+				<div class="team-card">
+					<span class="flag" aria-hidden="true">🏴󠁧󠁢󠁥󠁮󠁧󠁿</span>
+					<h3>Inglaterra</h3>
+					<span class="team-group">Grupo L</span>
+				</div>
+				<div class="team-card">
+					<span class="flag" aria-hidden="true">🇵🇹</span>
+					<h3>Portugal</h3>
+					<span class="team-group">Grupo K</span>
+				</div>
+				<div class="team-card">
+					<span class="flag" aria-hidden="true">🇯🇵</span>
+					<h3>Japón</h3>
+					<span class="team-group">Grupo F</span>
+				</div>
+				<div class="team-card">
+					<span class="flag" aria-hidden="true">🇲🇦</span>
+					<h3>Marruecos</h3>
+					<span class="team-group">Grupo C</span>
+				</div>
 			</div>
 		</section>
 
-		<section class="services" id="servicios">
+		<section class="stages diag-top diag-bottom" id="servicios">
 			<h2>Etapas del torneo</h2>
-			<div class="service-grid">
-				<article class="service-card" id="grupos">
-					<h3>Fase de grupos</h3>
-					<p>Los equipos luchan por avanzar en una competencia intensa y llena de sorpresas.</p>
+			<p class="stages-sub">El camino al título, boleto por boleto.</p>
+			<div class="stage-grid">
+				<article class="stage-card" id="grupos">
+					<span class="stage-num">01</span>
+					<div class="stage-body">
+						<h3>Fase de grupos</h3>
+						<p>Los equipos luchan por avanzar en una competencia intensa y llena de sorpresas.</p>
+					</div>
 				</article>
-				<article class="service-card" id="octavos">
-					<h3>Octavos de final</h3>
-					<p>La presión aumenta y cada partido se vuelve decisivo para seguir en carrera.</p>
+				<article class="stage-card" id="octavos">
+					<span class="stage-num">02</span>
+					<div class="stage-body">
+						<h3>Octavos de final</h3>
+						<p>La presión aumenta y cada partido se vuelve decisivo para seguir en carrera.</p>
+					</div>
 				</article>
-				<article class="service-card" id="semifinal">
-					<h3>Semifinales</h3>
-					<p>Solo los mejores continúan en busca del título más deseado del fútbol.</p>
+				<article class="stage-card" id="semifinal">
+					<span class="stage-num">03</span>
+					<div class="stage-body">
+						<h3>Semifinales</h3>
+						<p>Solo los mejores continúan en busca del título más deseado del fútbol.</p>
+					</div>
 				</article>
-				<article class="service-card" id="final">
-					<h3>Gran final</h3>
-					<p>El cierre del torneo reúne a dos selecciones para escribir la historia.</p>
+				<article class="stage-card" id="final">
+					<span class="stage-num">04</span>
+					<div class="stage-body">
+						<h3>Gran final</h3>
+						<p>El cierre del torneo reúne a dos selecciones para escribir la historia.</p>
+					</div>
 				</article>
 			</div>
 		</section>
 
-		<section class="gallery" id="galeria">
-			<h2>Galería del torneo</h2>
-			<div class="gallery-grid">
-				<div class="photo photo-one"></div>
-				<div class="photo photo-two"></div>
-				<div class="photo photo-three"></div>
+		<section class="standings" id="tabla">
+			<h2>Tabla de grupos</h2>
+			<p class="standings-sub">Fase de grupos completa — así quedaron los 12 grupos.</p>
+			<div class="groups-grid">
+				<div class="group-card">
+					<h3>Grupo A</h3>
+					<table>
+						<thead><tr><th>Sel.</th><th>PG</th><th>PE</th><th>PP</th><th>Pts</th></tr></thead>
+						<tbody>
+							<tr class="leader"><td>🇲🇽 México</td><td>3</td><td>0</td><td>0</td><td>9</td></tr>
+							<tr class="leader"><td>🇿🇦 Sudáfrica</td><td>1</td><td>1</td><td>1</td><td>4</td></tr>
+							<tr><td>🇰🇷 Corea del Sur</td><td>1</td><td>0</td><td>2</td><td>3</td></tr>
+							<tr><td>🇨🇿 Chequia</td><td>0</td><td>1</td><td>2</td><td>1</td></tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="group-card">
+					<h3>Grupo B</h3>
+					<table>
+						<thead><tr><th>Sel.</th><th>PG</th><th>PE</th><th>PP</th><th>Pts</th></tr></thead>
+						<tbody>
+							<tr class="leader"><td>🇨🇭 Suiza</td><td>2</td><td>1</td><td>0</td><td>7</td></tr>
+							<tr class="leader"><td>🇨🇦 Canadá</td><td>1</td><td>1</td><td>1</td><td>4</td></tr>
+							<tr><td>🇧🇦 Bosnia y H.</td><td>1</td><td>1</td><td>1</td><td>4</td></tr>
+							<tr><td>🇶🇦 Catar</td><td>0</td><td>1</td><td>2</td><td>1</td></tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="group-card">
+					<h3>Grupo C</h3>
+					<table>
+						<thead><tr><th>Sel.</th><th>PG</th><th>PE</th><th>PP</th><th>Pts</th></tr></thead>
+						<tbody>
+							<tr class="leader"><td>🇧🇷 Brasil</td><td>2</td><td>1</td><td>0</td><td>7</td></tr>
+							<tr class="leader"><td>🇲🇦 Marruecos</td><td>2</td><td>1</td><td>0</td><td>7</td></tr>
+							<tr><td>🏴 Escocia</td><td>1</td><td>0</td><td>2</td><td>3</td></tr>
+							<tr><td>🇭🇹 Haití</td><td>0</td><td>0</td><td>3</td><td>0</td></tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="group-card">
+					<h3>Grupo D</h3>
+					<table>
+						<thead><tr><th>Sel.</th><th>PG</th><th>PE</th><th>PP</th><th>Pts</th></tr></thead>
+						<tbody>
+							<tr class="leader"><td>🇺🇸 Estados Unidos</td><td>2</td><td>0</td><td>1</td><td>6</td></tr>
+							<tr class="leader"><td>🇦🇺 Australia</td><td>1</td><td>1</td><td>1</td><td>4</td></tr>
+							<tr><td>🇵🇾 Paraguay</td><td>1</td><td>1</td><td>1</td><td>4</td></tr>
+							<tr><td>🇹🇷 Turquía</td><td>1</td><td>0</td><td>2</td><td>3</td></tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="group-card">
+					<h3>Grupo E</h3>
+					<table>
+						<thead><tr><th>Sel.</th><th>PG</th><th>PE</th><th>PP</th><th>Pts</th></tr></thead>
+						<tbody>
+							<tr class="leader"><td>🇩🇪 Alemania</td><td>2</td><td>0</td><td>1</td><td>6</td></tr>
+							<tr class="leader"><td>🇨🇮 Costa de Marfil</td><td>2</td><td>0</td><td>1</td><td>6</td></tr>
+							<tr><td>🇪🇨 Ecuador</td><td>1</td><td>1</td><td>1</td><td>4</td></tr>
+							<tr><td>🇨🇼 Curazao</td><td>0</td><td>1</td><td>2</td><td>1</td></tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="group-card">
+					<h3>Grupo F</h3>
+					<table>
+						<thead><tr><th>Sel.</th><th>PG</th><th>PE</th><th>PP</th><th>Pts</th></tr></thead>
+						<tbody>
+							<tr class="leader"><td>🇳🇱 Países Bajos</td><td>2</td><td>1</td><td>0</td><td>7</td></tr>
+							<tr class="leader"><td>🇯🇵 Japón</td><td>1</td><td>2</td><td>0</td><td>5</td></tr>
+							<tr><td>🇸🇪 Suecia</td><td>1</td><td>1</td><td>1</td><td>4</td></tr>
+							<tr><td>🇹🇳 Túnez</td><td>0</td><td>0</td><td>3</td><td>0</td></tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="group-card">
+					<h3>Grupo G</h3>
+					<table>
+						<thead><tr><th>Sel.</th><th>PG</th><th>PE</th><th>PP</th><th>Pts</th></tr></thead>
+						<tbody>
+							<tr class="leader"><td>🇧🇪 Bélgica</td><td>1</td><td>2</td><td>0</td><td>5</td></tr>
+							<tr class="leader"><td>🇪🇬 Egipto</td><td>1</td><td>2</td><td>0</td><td>5</td></tr>
+							<tr><td>🇮🇷 Irán</td><td>0</td><td>3</td><td>0</td><td>3</td></tr>
+							<tr><td>🇳🇿 Nueva Zelanda</td><td>0</td><td>1</td><td>2</td><td>1</td></tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="group-card">
+					<h3>Grupo H</h3>
+					<table>
+						<thead><tr><th>Sel.</th><th>PG</th><th>PE</th><th>PP</th><th>Pts</th></tr></thead>
+						<tbody>
+							<tr class="leader"><td>🇪🇸 España</td><td>2</td><td>1</td><td>0</td><td>7</td></tr>
+							<tr class="leader"><td>🇨🇻 Cabo Verde</td><td>0</td><td>3</td><td>0</td><td>3</td></tr>
+							<tr><td>🇺🇾 Uruguay</td><td>0</td><td>2</td><td>1</td><td>2</td></tr>
+							<tr><td>🇸🇦 Arabia Saudita</td><td>0</td><td>2</td><td>1</td><td>2</td></tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="group-card">
+					<h3>Grupo I</h3>
+					<table>
+						<thead><tr><th>Sel.</th><th>PG</th><th>PE</th><th>PP</th><th>Pts</th></tr></thead>
+						<tbody>
+							<tr class="leader"><td>🇫🇷 Francia</td><td>3</td><td>0</td><td>0</td><td>9</td></tr>
+							<tr class="leader"><td>🇳🇴 Noruega</td><td>2</td><td>0</td><td>1</td><td>6</td></tr>
+							<tr><td>🇸🇳 Senegal</td><td>1</td><td>0</td><td>2</td><td>3</td></tr>
+							<tr><td>🇮🇶 Irak</td><td>0</td><td>0</td><td>3</td><td>0</td></tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="group-card">
+					<h3>Grupo J</h3>
+					<table>
+						<thead><tr><th>Sel.</th><th>PG</th><th>PE</th><th>PP</th><th>Pts</th></tr></thead>
+						<tbody>
+							<tr class="leader"><td>🇦🇷 Argentina</td><td>3</td><td>0</td><td>0</td><td>9</td></tr>
+							<tr class="leader"><td>🇦🇹 Austria</td><td>1</td><td>1</td><td>1</td><td>4</td></tr>
+							<tr><td>🇩🇿 Argelia</td><td>1</td><td>1</td><td>1</td><td>4</td></tr>
+							<tr><td>🇯🇴 Jordania</td><td>0</td><td>0</td><td>3</td><td>0</td></tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="group-card">
+					<h3>Grupo K</h3>
+					<table>
+						<thead><tr><th>Sel.</th><th>PG</th><th>PE</th><th>PP</th><th>Pts</th></tr></thead>
+						<tbody>
+							<tr class="leader"><td>🇨🇴 Colombia</td><td>2</td><td>1</td><td>0</td><td>7</td></tr>
+							<tr class="leader"><td>🇵🇹 Portugal</td><td>1</td><td>2</td><td>0</td><td>5</td></tr>
+							<tr><td>🇨🇩 RD Congo</td><td>1</td><td>1</td><td>1</td><td>4</td></tr>
+							<tr><td>🇺🇿 Uzbekistán</td><td>0</td><td>0</td><td>3</td><td>0</td></tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="group-card">
+					<h3>Grupo L</h3>
+					<table>
+						<thead><tr><th>Sel.</th><th>PG</th><th>PE</th><th>PP</th><th>Pts</th></tr></thead>
+						<tbody>
+							<tr class="leader"><td>🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra</td><td>2</td><td>1</td><td>0</td><td>7</td></tr>
+							<tr class="leader"><td>🇭🇷 Croacia</td><td>2</td><td>0</td><td>1</td><td>6</td></tr>
+							<tr><td>🇬🇭 Ghana</td><td>1</td><td>1</td><td>1</td><td>4</td></tr>
+							<tr><td>🇵🇦 Panamá</td><td>0</td><td>0</td><td>3</td><td>0</td></tr>
+						</tbody>
+					</table>
+				</div>
 			</div>
+			<p class="standings-note">Resaltados: los dos primeros de cada grupo, que avanzan directo a la fase eliminatoria (los mejores terceros lugares se definen aparte).</p>
 		</section>
 
 		<section class="contact" id="contacto">
-			<h2>Contacto</h2>
+			<h2>No te quedes fuera de la cancha</h2>
 			<p>Únete a la celebración mundialista y sigue toda la acción en vivo.</p>
-			<a class="btn" href="mailto:mundial@futbol.com">mundial@futbol.com</a>
+			<a class="btn btn-light" href="mailto:mundial@futbol.com">mundial@futbol.com</a>
 		</section>
 	</main>
 
